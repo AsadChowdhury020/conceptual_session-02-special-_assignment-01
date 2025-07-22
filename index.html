@@ -22,7 +22,7 @@
 <body>
     <main>
         <!--Nav bar start here-->
-        <nav class="container">
+        <nav class="container" id="home">
             <figure>
                 <img src="assets/images/logo.png" alt="">
             </figure>
@@ -31,10 +31,11 @@
                 <i class="fa-solid fa-magnifying-glass"></i>
             </div>
             <ul class="nav-icons merriweather-poppins">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Product</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#shoes">Shoes</a></li>
+                <li><a href="#backpacks">Backpacks</a></li>
+                <li><a href="#contact">Contact Us</a></li>
             </ul>
         </nav>
         <!--Nav bar end here-->
@@ -42,7 +43,8 @@
         <section class="banner container">
             <div class="banner-left">
                 <h1 class="merriweather-poppins">Mi LED TV 4A PRO 32</h1>
-                <p class="inter-inter">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                <p class="inter-inter">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                    officia consequat
                     duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
                 <h3 class="merriweather-poppins">$1289</h3>
                 <button class="button-primary inter-inter">BUY NOW <i class="fa-solid fa-arrow-right-long"></i></button>
@@ -52,8 +54,99 @@
         </section>
         <!--Banner section end here-->
         <!--Categories section start here-->
-        
+        <section class="categories-container container" id="categories">
+            <h2>Categories</h2>
+            <div class="categories-card-container">
+                <div class="categories-card categories-card-bg1">
+                    <h3>Watch</h3>
+                    <img src="assets/images/categories/watch.png" alt="">
+                </div>
+                <div class="categories-card categories-card-bg2">
+                    <h3>Bag</h3>
+                    <img src="assets/images/categories/bag.png" alt="">
+                </div>
+                <div class="categories-card categories-card-bg3">
+                    <h3>Shoes</h3>
+                    <img src="assets/images/categories/shoes.png" alt="">
+                </div>
+
+            </div>
+        </section>
         <!--Categories section end here-->
+        <!--Shoes section start here-->
+        <section class="shoes-container container" id="shoes">
+            <div class="shoes-heading-container">
+                <h2 class="shoes-container-heading">Shoes</h2>
+                <h3>See All</h3>
+            </div>
+            <div class="shoes-container-card-container">
+                <div class="shoes-container-card">
+                    <img src="assets/images/shoes/shoe-1.png" alt="">
+                    <h3>Reebok Dart Men’s Shoes</h3>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    <h4>$1289</h4>
+                    <button class="button-shoes">BUY NOW <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+                <div class="shoes-container-card">
+                    <img src="assets/images/shoes/shoe-2.png" alt="">
+                    <h3>Reebok Pump</h3>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    <h4>$799</h4>
+                    <button class="button-shoes">BUY NOW <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+                <div class="shoes-container-card">
+                    <img src="assets/images/shoes/shoe-3.png" alt="">
+                    <h3>Reebok All Terrain</h3>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    <h4>$699</h4>
+                    <button class="button-shoes">BUY NOW <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+
+        </section>
+        <!--Shoes section end here-->
+        <!--Backpack section start here-->
+        <section class="backpack-container" id="backpacks">
+            <div class="backpack-heading-container">
+                <h2 class="backpack-container-heading">Backpack</h2>
+                <h3>See All</h3>
+            </div>
+            <div class="backpack-container-card-container">
+                <div class="backpack-container-card">
+                    <img src="assets/images/bags/bag-1.png" alt="">
+                    <h3>Ison Backpack</h3>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    <h4>$1289</h4>
+                    <button class="button-backpack">BUY NOW <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+                <div class="backpack-container-card">
+                    <img src="assets/images/bags/bag-2.png" alt="">
+                    <h3>Biaowang Backpack</h3>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    <h4>$799</h4>
+                    <button class="button-backpack">BUY NOW <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+                <div class="backpack-container-card">
+                    <img src="assets/images/bags/bag-3.png" alt="">
+                    <h3>Dxyizu WS54 Smart</h3>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                    <h4>$699</h4>
+                    <button class="button-backpack">BUY NOW <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+
+        </section>
+        <!--Backpack section end here-->
+        <!--Footer section start here-->
+        <footer class="footer-container container" id="contact">
+            <h3>LET'S STAY IN TOUCH</h3>
+            <p>Get updates on sales specials and more</p>
+            <div class="searchbox-parent">
+                <input type="search" placeholder="Enter your email" name="" id="">
+                <button>Send</button>
+            </div>
+        </footer>
+        <!--Footer section end here-->
 
     </main>
 </body>
