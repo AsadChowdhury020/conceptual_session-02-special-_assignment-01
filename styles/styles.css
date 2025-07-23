@@ -33,6 +33,26 @@ main nav {
     display: flex;
     justify-content: space-between;
 }
+.product-li{
+    position: relative;
+}
+.drop-down{
+    position: absolute;
+    top: 30%;
+    background-color: #FFFFFF;
+    width: 130px;
+    border-radius:15px ;
+    list-style: none;
+    visibility: hidden;
+}
+.product-li:hover .drop-down{
+    visibility: visible;
+    top: 100%;
+    transition: .5s;
+}
+.drop-down li{
+    padding: 5px;
+}
 
 .search-parent{
     position: relative;
@@ -48,7 +68,7 @@ main nav {
     padding: 12px;
 
 }
-nav ul {
+.nav-icons{
     list-style: none;
     display: flex;
     gap: 10px;
@@ -165,9 +185,11 @@ nav ul {
     width: 360px;
     height: 532px;
     background-color: #FFFFFF;
-    box-shadow: 0px 4px 4px 0px;
     padding: 24px;
     text-align: center;
+    box-shadow: -12px -19px 69px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: -12px -19px 69px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -12px -19px 69px -3px rgba(0,0,0,0.75);
 }
 .shoes-container-card-container{
     display: flex;
@@ -223,6 +245,9 @@ nav ul {
     box-shadow: 0px 4px 4px 0px;
     padding: 24px;
     text-align: center;
+    box-shadow: -12px -19px 69px -3px rgba(0,0,0,0.75);
+-webkit-box-shadow: -12px -19px 69px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: -12px -19px 69px -3px rgba(0,0,0,0.75);
 }
 .backpack-container-card-container{
     display: flex;
